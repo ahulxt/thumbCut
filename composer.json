@@ -16,7 +16,7 @@
   "require": {
     "php": ">=5.3.0"
   },
-  "suggest": "PHP GD extension is necessary",
+  "suggest": ["PHP GD extension is necessary"],
   "autoload": {
     "psr-4": {
       "Ahulxt\\": "src"

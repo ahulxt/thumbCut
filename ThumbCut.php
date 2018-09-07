@@ -1,6 +1,6 @@
 <?php
 
-namespace Ahulxt;
+namespace ahulxt;
 /**
  * 图片裁剪，生成缩略图
  * 默认为不变成
@@ -17,7 +17,7 @@ namespace Ahulxt;
 		'storage_path' => 'C:\Users\xxx\Desktop/',
 	];
  */
-class ThumbCut {
+class thumbCut {
 	
 	/**
 	 * @param array $data

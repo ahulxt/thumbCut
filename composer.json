@@ -1,13 +1,9 @@
 {
   "name": "ahulxt/thumbcut",
   "description": "a plugin to create thumbnail",
-  "version": "1.0.0",
   "keywords": [
-    "thumbCut",
-    "thumb",
-    "thumbnail"
+    "thumb"
   ],
-  "time": "2018-09-06",
   "license": "MIT",
   "type": "library",
   "authors": [
@@ -20,5 +16,10 @@
   "require": {
     "php": ">=5.3.0"
   },
-  "minimum-stability": "stable"
+  "suggest": "PHP GD extension is necessary",
+  "autoload": {
+    "psr-4": {
+      "Ahulxt\\": "src"
+    }
+  }
 }

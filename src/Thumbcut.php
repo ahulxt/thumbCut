@@ -106,15 +106,3 @@ class Thumbcut {
 		}
 	}
 }
-
-$thumb = new Thumbcut();
-
-$thumb->thumb([
-	'source'       => 'D:\Documents\Pictures\gamelogo\599823e78008c.png',
-	'width'        => 56,
-	'height'       => 56,
-	'fixed'        => 1,
-	'output'       => true,
-	'storage'      => true,
-	'storage_path' => 'C:\Users\xiaotong.li\Desktop/',
-]);
